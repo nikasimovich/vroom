@@ -136,8 +136,8 @@ video {
 .hero {
 	background-image: url("imgs/hero-2.jpg");
 	background-color: #020011;
-	/*color: #FF00FF;*/
-	color: #FF8AFF;
+	color: #FF00FF;
+	/*color: #aa00ff;*/
 	height: 700px;
 	width: 100%;
 	align-items: center;
@@ -150,6 +150,7 @@ video {
 .small-title {
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	color: #e5c7ff;
 }
 
 .hero-copy {
