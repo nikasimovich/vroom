@@ -71,8 +71,11 @@ video {
 }
 
 .slides {
-	animation: Slider 7s ease-in infinite forwards;
+	animation: Slider 7s linear infinite;
 	height: 800px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 .slides img {
