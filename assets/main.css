@@ -29,6 +29,7 @@ img {
   -webkit-filter: url(#blur);
   will-change: filter, -webkit-filter;
   transform: translateZ(0);
+  text-align: top;
 }
 
 video {
@@ -71,11 +72,13 @@ video {
 }
 
 .slides {
-	animation: Slider 7s linear infinite;
+/*	animation: Slider 7s linear infinite;*/
 	height: 800px;
+	background-image: url("imgs/rainbow-car.gif");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+	background-fill: cover;
 }
 
 .slides img {
@@ -130,6 +133,7 @@ video {
 	justify-content: center;
 	text-align: center;
 	display: flex;
+	background-size: cover;
 }
 
 .small-title {
@@ -183,7 +187,7 @@ video {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .intro {
     font-size: 30px;
     max-width: 90%;
